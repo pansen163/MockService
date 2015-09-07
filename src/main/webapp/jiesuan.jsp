@@ -11,7 +11,7 @@
     <title></title>
 </head>
 <body>
-<form action="/spay/pay/tenderBalanceQuery.do" method="post">
+<form action="spay/pay/tenderBalanceQuery.do" method="post">
 
     标的账户：<input type="text" name="id"/>
 

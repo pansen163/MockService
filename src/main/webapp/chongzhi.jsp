@@ -13,7 +13,7 @@
     <script>
         $(function () {
             $("#yuchongzhi").submit(function (data) {
-                alert(data);
+//                alert(data);
             });
         });
         //随机生成16位字母或数字
