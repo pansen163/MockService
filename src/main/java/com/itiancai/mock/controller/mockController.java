@@ -132,7 +132,7 @@ public class mockController {
       str = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n"
             + "<html>\n"
             + "  <head>\n"
-            + "\t<META NAME=\"MobilePayPlatform\" CONTENT=\"ret_code=0000&ret_msg=交易成功&balance="+ Cache.map.get(request.getParameter("project_id"))+ "\">\n"
+            + "\t<META NAME=\"MobilePayPlatform\" CONTENT=\"ret_code=0000&ret_msg=交易成功&balance="+ Cache.map.get(request.getParameter("project_id"))==null?"100000000":Cache.map.get(request.getParameter("project_id"))+ "\">\n"
             + "  </head>\n"
             + "  <body>\n"
             + "  </body>\n"
